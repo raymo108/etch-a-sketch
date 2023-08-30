@@ -1,4 +1,4 @@
-.container {
+#container {
     border-color: black;
     border-width: 10px;
     display: flex; 
@@ -20,4 +20,32 @@ body {
     align-items: center;
     /* ensure the body takes up full height of the viewport */
     min-height: 100vh;
+    transition: background-color 0.5s;
 }
+
+
+#container div {
+    background-color: aqua;
+}
+
+#myButton {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    padding: 20px;
+    margin: 5px;
+    font-family: fantasy;
+    color: black;
+    background-color: lavender;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+
+ 
